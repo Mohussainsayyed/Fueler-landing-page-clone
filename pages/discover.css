@@ -1,0 +1,162 @@
+	:root{
+	--text-color:#030a44;
+	--border-r:10px;
+	}
+	
+	
+	body{
+	background:rgba(14,210,247,.2);
+	scroll-behavior: smooth;
+	overflow:hidden;
+	}
+	
+	.navbar .active{
+	color:rgba(14,210,247,.9);
+	}
+
+	.discover{
+		display:flex;
+		align-items:center;
+		flex-direction:column;
+		background:url('../images/main-bg.jpg');
+		background-size:cover;
+		background-position:top right;
+		background-attachment:fixed;
+		width:90%;
+		position:relative;
+		margin:90px auto 0;
+		border-radius:15px;
+		animation: bgshow 20s linear infinite;
+	}
+	
+	@keyframes bgshow{
+		25%{
+			background-position:top left;
+		}
+		100%{
+			background-position:top right;
+		}
+	}
+	
+	.discover .center-bx{
+	text-align:center;
+	margin:50px 0;
+	}
+	
+	.center-bx > h1{
+	font-size:35px;
+	margin-bottom:25px;
+	color:var(--text-color);
+	}
+	
+	.center-bx > p{
+	font-weight:600;
+	color:var(--text-color);
+	}
+	
+	.surch-bx{
+	margin:30px 20px;
+	background:rgba(14,210,247,.2);
+	backdrop-filter:blur(10px);
+	border-radius:10px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	overflow:hidden;
+	}
+	
+	.surch-bx input{
+	height:50px;
+	background:transparent;
+	outline:none;
+	border:none;
+	font-size:18px;
+	padding:5px ;
+	width:70%;
+	color:var(--text-color);
+	}
+	
+	
+	.surch-bx button {
+	font-size:20px;
+	padding:10px 14px;
+	border:none;
+	height:90%;
+	border-radius:10px;
+	background:rgba(14,210,247,.6);
+	color:var(--text-color);
+	}
+	
+	.surch-bx button:hover{
+	background:rgba(14,210,247,1);
+	}
+	
+	.option-bx{
+	width:80%;
+	margin:20px auto;
+	}
+	
+	.option-bx .option{
+	padding :7px 12px;
+	border:1px solid black;
+	border-radius:5px;
+	background:rgba(14,210,247,.2);
+	backdrop-filter:blur(10px);
+	display:inline-block;
+	margin:5px;
+	font-size:15px;
+	font-weight:500;
+	color:var(--text-color);
+	}
+	
+	.option-bx .option:hover {
+	border:1px solid rgba(14,210,247,.9);
+	color:rgba(14,210,247,.9);
+	}
+	
+	.prsn-work{
+	width:100%;
+	margin:0;
+	}
+	
+	
+	.prsn-work-slider{
+	height:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+	flex-direction:rows;
+	}
+	
+	.prsn-work{
+	width:350px;
+	margin:30px 0;
+	color:white;
+	}
+	
+	.fixed{
+	position:fixed;
+	bottom:40px;
+	border-radius:5px;
+	padding:12px 20px ;
+	background:rgba(14,210,247,.2);
+	backdrop-filter:blur(20px);
+	z-index:1000;
+	}
+	
+	.fixed a{
+	text-decoration:none;
+	font-size:18px;
+	font-weight:500;
+	color:white;
+	}
+	
+	.fixed a img{
+	width:20px;
+	background:white;
+	vertical-align:top;
+	overflow:visible;
+	border-radius:50%;
+	box-sizing:content-box;
+	}

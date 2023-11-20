@@ -1,0 +1,123 @@
+body,
+html{
+background:#080518;
+}
+/*navigation */
+.header .icon{
+color:white;
+}
+
+#check:checked~ .navbar{
+	height:120px;
+	transition:.5s;
+}
+
+.header{
+position:relative;
+}
+
+.navbar a.register{
+background:#5137ee;
+color:white;
+font-weight:500;
+padding:8px 15px;
+font-size:18px;
+}
+
+
+
+/*navigation end*/
+/*main sec*/
+.book-sec{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+margin:50px 0 0;
+}
+
+.book-sec img{
+width:80%;
+margin:15px 0 ;
+}
+
+.book-sec > p{
+color:white;
+width:100%;
+text-align:center;
+font-size:20px;
+font-weight:600;
+}
+
+.books{
+width:85%;
+background:#211e2f;
+/*height:450px;*/
+border-radius:20px;
+margin:130px auto 0;
+position:relative;
+}
+
+.books img{
+height:250px;
+width:auto;
+position:absolute;
+top:-20%;
+left:10%;
+border-top-right-radius:10px;
+border-bottom-right-radius:10px;
+box-shadow:6px 4px 0px gray;
+}
+
+
+.books h2{
+font-size:20px;
+margin:220px 10% 0;
+color:white;
+}
+
+.books p{
+font-size:18px;
+color:gray;
+margin:20px 10% 0;
+line-height:25px;
+}
+
+.books .btns{
+margin: 40px 10% ;
+}
+
+.books .btns a,.back-btn{
+text-decoration:none;
+font-size:15px;
+font-weight:600;
+background:#030a44;
+border:1px solid white;
+border-radius:5px;
+padding:10px 15px;
+margin:0 5px;
+color:white;
+}
+
+.books .btns a:first-child {
+background:#5137ee;
+}
+
+.books .btns a:hover {
+box-shadow:0 0 8px 5px #5137ee;
+}
+
+
+.back-btn{
+margin:200px 0 50px;
+padding:8px 15px;
+font-size:15px;
+background:none;
+}
+
+.back-btn i{
+font-size:20px;
+font-weight:600;
+}
+
+/*Main sec end*/
