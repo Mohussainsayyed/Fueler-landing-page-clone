@@ -87,7 +87,7 @@ stagger:2,
 opacity:0,
 scrollTrigger:{
 trigger:".comm-bx",
-/*	markers:true,*/
+	markers:true,
 start:"top 70%",
 end:"top 50%",
 scrub:2,
