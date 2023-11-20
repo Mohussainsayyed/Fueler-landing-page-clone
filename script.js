@@ -61,7 +61,7 @@ gsap.from(".rapper .bgbx",{
 x:"-100vw",
 scrollTrigger:{
 trigger:".bgbx",
-/*	markers:true,*/
+	markers:true,
 start:"center 70%",
 end:"center center",
 scrub:1,
@@ -73,7 +73,7 @@ gsap.from(".rapper .bgbx2",{
 x:"100vw",
 scrollTrigger:{
 trigger:".bgbx2",
-/*	markers:true,*/
+	markers:true,
 start:"center 70%",
 end:"center center",
 scrub:1,
